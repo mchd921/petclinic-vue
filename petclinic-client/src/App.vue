@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <OwnerList />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import OwnerList from './components/OwnerList.vue';
-
 export default {
-  components: {
-    OwnerList
-  }
+  name: 'App',
 };
 </script>
+
+<style>
+/* 任意のスタイル */
+</style>
